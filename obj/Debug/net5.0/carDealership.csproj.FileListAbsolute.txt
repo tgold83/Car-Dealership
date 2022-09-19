@@ -1,0 +1,16 @@
+C:\Users\tedjo\onedrive\desktop\epicodus\car-dealership\obj\Debug\net5.0\carDealership.csproj.AssemblyReference.cache
+C:\Users\tedjo\onedrive\desktop\epicodus\car-dealership\obj\Debug\net5.0\carDealership.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tedjo\onedrive\desktop\epicodus\car-dealership\obj\Debug\net5.0\carDealership.AssemblyInfoInputs.cache
+C:\Users\tedjo\onedrive\desktop\epicodus\car-dealership\obj\Debug\net5.0\carDealership.AssemblyInfo.cs
+C:\Users\tedjo\onedrive\desktop\epicodus\car-dealership\obj\Debug\net5.0\carDealership.csproj.CoreCompileInputs.cache
+C:\Users\tedjo\onedrive\desktop\epicodus\car-dealership\bin\Debug\net5.0\carDealership.exe
+C:\Users\tedjo\onedrive\desktop\epicodus\car-dealership\bin\Debug\net5.0\carDealership.deps.json
+C:\Users\tedjo\onedrive\desktop\epicodus\car-dealership\bin\Debug\net5.0\carDealership.runtimeconfig.json
+C:\Users\tedjo\onedrive\desktop\epicodus\car-dealership\bin\Debug\net5.0\carDealership.runtimeconfig.dev.json
+C:\Users\tedjo\onedrive\desktop\epicodus\car-dealership\bin\Debug\net5.0\carDealership.dll
+C:\Users\tedjo\onedrive\desktop\epicodus\car-dealership\bin\Debug\net5.0\ref\carDealership.dll
+C:\Users\tedjo\onedrive\desktop\epicodus\car-dealership\bin\Debug\net5.0\carDealership.pdb
+C:\Users\tedjo\onedrive\desktop\epicodus\car-dealership\obj\Debug\net5.0\carDealership.dll
+C:\Users\tedjo\onedrive\desktop\epicodus\car-dealership\obj\Debug\net5.0\ref\carDealership.dll
+C:\Users\tedjo\onedrive\desktop\epicodus\car-dealership\obj\Debug\net5.0\carDealership.pdb
+C:\Users\tedjo\onedrive\desktop\epicodus\car-dealership\obj\Debug\net5.0\carDealership.genruntimeconfig.cache
