@@ -9,18 +9,6 @@ namespace Dealership.Models {
     public int Price { get; set; }
     public int Miles { get; set; }
 
-    // public string MakeModel
-    // {
-    //   get 
-    //   {
-    //     return "That's a big secret. You'll have to visit Lonny's to find out about our special deals!";
-    //   }
-    //   set 
-    //   {
-    //     MakeModel = value;
-    //   }
-    // }
-
     public static string MakeSound(string sound)
     {
       return "our cars sound like " + sound;
@@ -31,6 +19,19 @@ namespace Dealership.Models {
       Price = newPrice;
     }
 
+    public void SalePrice(float saleDecimal)
+    {
+      Console.WriteLine(saleDecimal);
+      float floatedPrice = (float)Price;
+      floatedPrice = floatedPrice * saleDecimal;
+      Console.WriteLine("new Price = " + floatedPrice);
+      Price = (int)floatedPrice;
+    }
+
+    public void discountedPrice(int discount)
+    {
+      Price = Price - discount;
+    }
     // Constructor
     public Car(string makeModel, int price, int miles)
     {
@@ -44,7 +45,7 @@ namespace Dealership.Models {
       return MakeModel;
     }
 
-    public int GetPrice()
+    public float GetPrice()
     {
       return Price;
     }

@@ -9,7 +9,7 @@ namespace Dealership
     public static void Main()
     {
       Car volkswagen = new Car("1974 Volkswagen Thing", 1100, 368792);
-      Car yugo = new Car("1980 Yugo Koral", 700, 56000);
+      Car yugo = new Car("1980 Yugo Koral", 1000, 56000);
       Console.WriteLine(yugo.MakeModel);
       yugo.MakeModel = "Worst Car Ever";
       Console.WriteLine(yugo.MakeModel);
@@ -20,8 +20,9 @@ namespace Dealership
 
       List<Car> Cars = new List<Car>() { volkswagen, yugo, ford, amc };
 
-      yugo.SetPrice(300);
-
+      //yugo.SetPrice(300);
+      yugo.SalePrice(.50f);
+      volkswagen.discountedPrice(200);//discounts $200 from volkswagen price (1100 -> 900)
 
       Console.WriteLine("Enter maximum price: ");
       string stringMaxPrice = Console.ReadLine();
