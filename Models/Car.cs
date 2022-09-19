@@ -8,6 +8,7 @@ namespace Dealership.Models {
     public string MakeModel { get; set; }
     public int Price { get; set; }
     public int Miles { get; set; }
+    public bool Offroad { get; set; }
 
     public static string MakeSound(string sound)
     {
@@ -33,11 +34,12 @@ namespace Dealership.Models {
       Price = Price - discount;
     }
     // Constructor
-    public Car(string makeModel, int price, int miles)
+    public Car(string makeModel, int price, int miles, bool offroad)
     {
       MakeModel = makeModel;
       Price = price;
       Miles = miles;
+      Offroad = offroad;
     }
 
     public string GetMakeModel()
@@ -53,6 +55,11 @@ namespace Dealership.Models {
     public int GetMiles()
     {
       return Miles;
+    }
+
+    public bool GetOffroadCapabilities()
+    {
+      return Offroad;
     }
     
     public bool WorthBuying(int maxPrice)
